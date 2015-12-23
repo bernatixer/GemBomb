@@ -1,0 +1,7 @@
+name: GemBomb
+version: 1.1
+main: com.bernatixer.GemBomb
+description: bernatixer
+commands:
+    gembomb:
+        description: GemBomb.

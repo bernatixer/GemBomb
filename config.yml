@@ -1,0 +1,20 @@
+Message: "&a%player% has opened a &a&lGemBomb"
+#
+#Block: Means the item wich the GemBomb gets activated
+#Use this website to know the name http://www.minecraftinfo.com/idnamelist.htm
+#You need to set it in upper case letters
+Block: "EMERALD_BLOCK"
+#
+#Item: Is the Gem
+#Use this website to know the name http://www.minecraftinfo.com/idnamelist.htm
+#You need to set it in upper case letters
+Item: "EMERALD"
+#
+#CommandB: Do you want to execute a command when pickup a Gem
+#Command: Command to be executed on Gem pickup
+#You must not add the: /
+CommandB: true
+Command: "give %player% stone 5"
+#
+#Item: Gems to be dropped in a second (Gems/second)
+Gems: 2
